@@ -1,0 +1,15 @@
+<svg width="100" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hoofd -->
+  <circle cx="50" cy="40" r="30" fill="#FFD9C0" />
+
+  <!-- Lichaam -->
+  <rect x="30" y="70" width="40" height="80" fill="#6DA3F9" rx="10" />
+
+  <!-- Armen -->
+  <rect x="10" y="80" width="20" height="60" fill="#FFD9C0" rx="10" />
+  <rect x="70" y="80" width="20" height="60" fill="#FFD9C0" rx="10" />
+
+  <!-- Benen -->
+  <rect x="35" y="150" width="10" height="50" fill="#6DA3F9" />
+  <rect x="55" y="150" width="10" height="50" fill="#6DA3F9" />
+</svg>
