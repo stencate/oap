@@ -15,6 +15,7 @@ djangorestframework==3.15.2
 draftjs-exporter==5.0.0
 et-xmlfile==1.1.0
 filetype==1.2.0
+heroicons==2.8.0
 idna==3.8
 l18n==2021.3
 laces==0.1.1
