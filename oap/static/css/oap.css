@@ -1,6 +1,7 @@
 *,
 *:before,
-*:after {
+*:after,
+body {
     box-sizing: border-box;
     font-family: SUSE, sans-serif;
     font-optical-sizing: auto;
@@ -8,10 +9,23 @@
     font-size: min(max(1rem, 128px), 22px);
 }
 
+body {
+    background: no-repeat linear-gradient(180deg, #f8b500 40%, #fceabb 60%);
+    height: 100%;
+}
 
-.hero-section {
-    background: no-repeat left 30% url("/media/sketches/hero-section-image v6-nobg.svg"),
-        linear-gradient(180deg, #f8b500 20%, #fceabb 50% );
+/* heights */
+.vh-10 {
+    height: 10vh;
+}
+
+.vh-30 {
+    height: 30vh;
+}
+ .hero-section {
+    height: 100%;
+    background: border-box no-repeat bottom 60% left 0/50% url("/media/sketches/hero-section-image v7-nobg.svg"),
+        linear-gradient(180deg, #f8b500 40%, #a87e0a 65%);
 
 }
 

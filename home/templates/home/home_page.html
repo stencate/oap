@@ -6,8 +6,10 @@
 {% block extra_css %}{% endblock extra_css %}
 
 {% block content %}
-{% include 'home/nav_bar.html' %}
+<div class="container-fluid hero-section">
+    {% include 'home/nav_bar.html' %}
 
-{% include 'home/hero_section.html' %}
+    {% include 'home/hero_section.html' %}
+</div>
 
 {% endblock content %}
