@@ -48,7 +48,25 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+
+    'django_comments_xtd',
+    'django_comments',
 ]
+
+# Tell django.contrib.comments that the application
+# handling the comments is django-comments-xtd:
+COMMENTS_APP = 'django_comments_xtd'
+
+# Either enable sending mail messages to the console:
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# Or set up the EMAIL_* settings so that Django can send emails:
+# EMAIL_HOST = "smtp.example.com"
+# EMAIL_PORT = "587"
+# EMAIL_HOST_USER = "alias@example.com"
+# EMAIL_HOST_PASSWORD = "yourpassword"
+# EMAIL_USE_TLS = True
+# DEFAULT_FROM_EMAIL = "Helpdesk <helpdesk@example.com>"
 
 MIDDLEWARE = [
     "django.contrib.sessions.middleware.SessionMiddleware",
