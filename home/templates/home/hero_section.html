@@ -1,8 +1,16 @@
 {% load i18n wagtailcore_tags static %}
 
 <div class="container">
-    <div class="row ">
-        <h1 class="">{{ page.hero_title | richtext }}</h1>
+    <div class="row">
+        <h1 class="display-1 text-center fw-bold">{{ page.hero_title | richtext }}</h1>
     </div>
-
+    <div class="row">
+        <p class="lead text-center display-5">{{ page.sub_title }}</p>
+    </div>
+    <div class="d-grid col-4 mx-auto pt-5">
+        <button class="btn btn-outline-dark fs-2 fw-medium" type="button">Plaats een Oproep</button>
+    </div>
+    <div class="d-grid mx-auto pt-5">
+        <div class="hero-section"></div>
+    </div>
 </div>
